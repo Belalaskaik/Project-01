@@ -20,3 +20,8 @@ def find_preferred_city(city_distances, fuel, mpg):
     
     return preferred_city
 
+
+city_distances = [5, 25, 15, 10, 15]
+fuel = [1, 2, 1, 0, 3]
+mpg = 10
+print(find_preferred_city(city_distances, fuel, mpg))
